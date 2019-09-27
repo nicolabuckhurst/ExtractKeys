@@ -41,7 +41,7 @@ describe("simple test", ()=>{
         expect(extract(testObject, "url")).toEqual(["testurl1","testurl2","testurl3"]);
     });
 
-    test.only("edge case", ()=>{
+    test("edge case", ()=>{
         const testObject = {
             url:"testurl1",
             innertestobject:{
