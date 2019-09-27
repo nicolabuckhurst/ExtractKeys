@@ -1,4 +1,4 @@
-const extract = require("../src/ExtractKeys").extract;
+const extract = require("../src/extract_keys").extract;
 
 describe("simple test", ()=>{
     test("extracts urls from a single object", ()=>{
