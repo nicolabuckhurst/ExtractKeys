@@ -2,7 +2,7 @@
   "name": "extract-keys",
   "version": "1.0.0",
   "description": "",
-  "main": "extract_keys.js",
+  "main": "src/extract_keys.js",
   "scripts": {
     "test": "jest"
   },
